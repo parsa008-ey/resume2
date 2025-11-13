@@ -1,18 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Page Title</title>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
-<h1>پارسا عیوض زاده</h1>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">رزومه</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">پروژه ها</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">مهارت ها</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">راه های ارتباطی</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+<br>
+<div class="container">
+  <div class="card" style="width:300px">
+    <img class="card-img-top" src="img_avatar1.png" alt="Card image" style="width:90%">
+    <div class="card-body">
+      <h4 class="card-title">پارسا عیوض زاده </h4>
+      <p class="card-text">دانشجوی کارشناسی مهندسی کامپیوتر</p>
+       <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+    رزومه
+  </button>
+    </div>
+  </div>
+</div>
+ <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+      
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <div class="modal-body">
+     
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
 <h2>email address :parsaeyvazzade@gmail.com</h2>
 <h3>github id: parsa008-ey</h3>
 <h4>مهارت ها<strong></storng></h4>
 <p>C++ کار با</p>
+<div class="container">
+ <div class="progress">
+  <div class="progress-bar bg-info" style="width:70%">70%</div>
+</div>
+</div>
 <p>HTML اشنایی مختصر با</p>
+  <div class="container">
+  <div class="progress">
+    <div class="progress-bar bg-warning" style="width:15%">15%</div>
+  </div>
+</div>
 <p>github اشنایی با</p>
+<div class="container">
+<div class="progress">
+ <div class="progress-bar bg-danger" style="width:20%">20%</div>
+</div>
+</div>
 <p>microsoft office کار با </p>
+<div class="container">
+ <div class="progress">
+ <div class="progress-bar bg-dark" style="width:80%">80%</div>
+</div>
+</div>
 </body>
 <style>
 body {
@@ -27,8 +98,8 @@ text-align: center;
 color: SeaGreen;
 }
 h4 {
-border: 12px solid gray;
-padding: 20px;
+border: 10px solid gray;
+padding: 18px;
 text-align: center;
 color: DarkRed;
 font-size: 200%;
@@ -38,13 +109,17 @@ text-align: center;
 color: SeaGreen;
 }
 p {
-font-size: 150%;
-border: 10px solid gray;
+font-size: 100%;
+border: 10px Solid Grey;
 padding: 20px;
 text-align: right;
 color: green;
 }
+div {
+text-align: center;
+}
 </style>
 </html>
+
 
 
